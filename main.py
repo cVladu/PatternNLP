@@ -1,7 +1,9 @@
-import yaml
-import re
-import random
 import argparse
+import random
+import re
+
+import yaml
+
 
 def read_ruleset(file_path):
     with open(file_path, 'rt') as input_file:
