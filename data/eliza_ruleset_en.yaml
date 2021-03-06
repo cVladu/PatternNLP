@@ -1,0 +1,155 @@
+# The format:
+# Pattern: List of possible responses
+
+"^(.*?)hello(.*)$":
+  - "How do you do. Please state your problem"
+"^(.*?)computer(.*)$":
+  - "Do computers worry you?"
+  - "What do you think about machines?"
+  - "Why do you mention computers?"
+  - "What do you think machines have to do with your problem?"
+"^(.*?)name(.*)$":
+  - "I am not intereseted in names"
+"^(.*?)sorry(.*)$":
+  - "Please don't apologize"
+  - "Apologies are not necessary"
+  - "What feelings do you have when you apologize?"
+"^(.*?)I remember(.*)$":
+  - "Do you often think of {1}?"
+  - "Does thinking of {1} bring anything else to mind?"
+  - "What else do you remember?"
+  - "Why do you recall {1} right now?"
+  - "What in the present situation reminds you of {1}?"
+  - "What is the connection between me and {1}?"
+"^(.*?)do you remember(.*)$":
+  - "Did you think I would forget {1}?"
+  - "Why do you think I should recall {1} now?"
+  - "What about {1}?"
+  - "You mentioned {1}?"
+"^(.*?)if(.*)$":
+  - "Do you really think its likely that {1}?"
+  - "Do you wish that {1}?"
+  - "What do you think about {1}?"
+  - "Really-- if {1}"
+"^(.*?)I dreamt(.*)$":
+  - "Really -- {1}"
+  - "Have you ever fantasized {1} while you were awake?"
+  - "Have you dreamt {1} before?"
+"^(.*?)dream about(.*)$":
+  - "How do you feel about {1} in reality?"
+"^(.*?)dream(.*)$":
+  - "What does this dream suggest to you?"
+  - "Do you dream often?"
+  - "What persons appear in your dreams?"
+  - "Don't you belive that dream has to do with your problem?"
+"^(.*?)my mother(.*)$":
+  - "Who else in your family {1}?"
+  - "Tell me more about your family"
+"^(.*?)my father(.*)$":
+  - "Your father..."
+  - "Does he influence you strongly?"
+  - "What else comes to mind when you think of your father?"
+"^(.*?)I want(.*)$":
+  - "What would it mean if you got {1}?"
+  - "Why do you want {1}?"
+  - "Suppose you got {1} soon. What next?"
+"^(.*?)I am glad(.*)$":
+  - "How have I helped you to be {1}"
+  - "What makes you happy just now?"
+  - "Can you explain why you are suddenly {1}?"
+"^(.*?)I am sad(.*)$":
+  - "I am sorry to hear you are depressed"
+  - "I am sure it's not pleasant to be sad"
+"^(.*?)are like(.*)$":
+  - "What resemblance do you see between {0} and {1}?"
+"^(.*?)is like(.*)%":
+  - "What resemblance do you see between {0} and {1}?"
+  - "In what way is it that {0} is likely {1}?"
+  - "Could there really be more connection?"
+  - "How?"
+"^(.*?)alike(.*)$":
+  - "In what way?"
+  - "What similarities are there?"
+"^(.*?)same(.*)$":
+  - "What other connections do you see?"
+"^(.*?)I was(.*)$":
+  - "Were you really?"
+  - "Perhaps I already knew you were {1}"
+  - "Why do you tell me you were {1} now?"
+"^(.*?)was I(.*)$":
+  - "What if you were {1}?"
+  - "Do you think you were {1}?"
+  - "What would it mean if you were {1}?"
+"^(.*?)I am(.*)$":
+  - "In what way are you {1}?"
+  - "Do you want to be {1}?"
+"^(.*?)am I(.*)$":
+  - "Do you believe you are {1}?"
+  - "Would you want to be {1}?"
+  - "You wish I would tell you you are {1}?"
+  - "What would it mean if you were {1}?"
+"^(.*?)are you(.*)$":
+  - "Why are you interested in whether I am {1} or not?"
+  - "Would you prefer if I weren't {1}?"
+  - "Perhaps I am {1} in your fantasies"
+"^(.*?)because(.*)$":
+  - "Is that the real reason?"
+  - "What other reasons might there be?"
+  - "Does that reason seem to explain anything else?"
+"^(.*?)were you(.*)$":
+  - "Perhaps I was {1}"
+  - "What do you think?"
+  - "What if I had been {1}?"
+"^(.*?)I can't(.*)$":
+  - "Maybe you could {1} now"
+  - "What if you could {1}?"
+"^(.*?)I feel(.*)$":
+  - "Do you often feel {1}?"
+"^(.*?)I felt(.*)$":
+  - "What other feelings do you have?"
+"^(.*?)I (.*?) you(.*)$":
+  - "Perhaps in your fantasy we {1} each other"
+"^(.*?)why don't you(.*)$":
+  - "Should you {1} yourself?"
+  - "Do you believe I don't {1}?"
+  - "Perhaps I will {1} in good time"
+"^(.*?)yes(.*)$":
+  - "You seem quite positive"
+  - "You are sure"
+  - "I understand"
+"^(.*?)no(.*)$":
+  - "Why not?"
+  - "You are being a bit negative"
+"^(.*?)someone(.*)$":
+  - "Can you be more specific"
+"^(.*?)everyone(.*)$":
+  - "Surely not everyone"
+  - "Can you think of anyone in particular?"
+  - "Who for example?"
+  - "You are thinking of a special person"
+"^(.*?)always(.*)$":
+  - "Can you think of a specific example?"
+  - "When?"
+  - "What incident are you thinking of?"
+  - "Really-- always?"
+"^(.*?)what(.*)?$":
+  - "Why do you ask?"
+  - "Does that question interest you?"
+  - "What is it you really want to know?"
+  - "What do you think?"
+  - "What comes to your mind when you ask that?"
+"^(.*?)perhaps(.*)$":
+  - "You do not seem quite certain"
+"^(.*?)are(.*)$":
+  - "Did you think they might not be {1}?"
+  - "Possibly they are {1}"
+
+# Default responses
+
+"Default":
+  - "Very interesting"
+  - "I am not sure I understand you fully"
+  - "What does that suggest to you?"
+  - "Please continue"
+  - "Go on"
+  - "Do you feel strongly about discussing such things?"
